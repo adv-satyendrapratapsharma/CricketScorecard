@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Scorecard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="scoreboard">
+      <h2 id="batting">Batting: Anant</h2>
+      <p id="score">Score: 0</p>
+      <p id="balls">Balls: 0 | Overs: 0.0</p>
+      <p id="foursSixes">Fours: 0 | Sixes: 0</p>
+      <p id="status">Status: NOT OUT</p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="four()">FOUR</button>
+      <button onclick="six()">SIX</button>
+      <button onclick="dot()">DOT</button>
+      <button onclick="wide()">WIDE</button>
+      <button onclick="noBall()">NO BALL</button>
+      <button class="out" onclick="out()">OUT</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

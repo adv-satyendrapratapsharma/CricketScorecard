@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 15px;
+}
+
+.scoreboard {
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.scoreboard h2 {
+  margin: 0 0 10px 0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.out {
+  background: red;
+  color: white;
+}
